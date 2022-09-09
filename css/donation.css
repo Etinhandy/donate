@@ -358,8 +358,9 @@ input[type="radio"]:checked {
     padding: 2rem 1.5rem;
   }
 
-  .donation-input-row {
+  .donation-input-row, .donation-input-2 {
     flex-direction: column;
+    padding: 0 1rem;
   }
 
   .donation-input-2 input {
@@ -407,4 +408,5 @@ input[type="radio"]:checked {
     width: 100%;
     padding: 1.3rem;
   }
+  
 }
