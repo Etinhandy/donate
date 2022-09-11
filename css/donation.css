@@ -109,6 +109,8 @@
 .donation-form-container {
   width: 60%;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
 .donation-page-btns {
@@ -154,7 +156,6 @@
 }
 
 .donation-input label,
-
 .donation-input-2 label,
 .rdio label,
 .input-box p {
@@ -199,7 +200,6 @@
   align-items: center;
   padding-top: 1rem;
 }
-
 
 input[type="radio"] {
   appearance: none;
@@ -281,7 +281,6 @@ input[type="radio"]:checked {
     flex-direction: column;
     align-items: center;
   }
-
 }
 
 /* mediaqueries for tablet view */
@@ -445,5 +444,5 @@ input[type="radio"]:checked {
   .input-box {
     margin-bottom: 0.8rem;
     padding: 0 1rem;
-}
+  }
 }
