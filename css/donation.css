@@ -254,34 +254,7 @@ input[type="radio"]:checked {
 
 /* for some laptop screens */
 
-@media (max-width: 1024px) {
-  .donation-hero-section {
-    padding: 0 20rem 0 8rem;
-  }
 
-  .donation-flex {
-    padding: 4rem 2rem;
-  }
-
-  .donation-pic-frame {
-    width: 29rem;
-    height: 30rem;
-  }
-
-  .donation-flex-text {
-    width: 49%;
-  }
-  .donation-flex-pic {
-    width: 49%;
-  }
-
-  .to-align {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
 
 /* mediaqueries for tablet view */
 
